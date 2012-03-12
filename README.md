@@ -9,8 +9,7 @@ https://github.com/korylprince/KAuth
 
 If you are running this on a windows box, need to set the windows option to True in auth/options.php
 
-Simply copy the IPCheck folder to your web directory, copy auth/options.php.def to options.php, and edit it for authentication and your list of ips.
-Then navigate to your website and login. 
+Simply copy the IPCheck folder to your web directory, copy auth/options.php.def to options.php, and edit it for authentication and your list of ips. Then navigate to your website and login. 
 
 If you have any issues or questions, email the email address below, or open an issue at:
 https://github.com/korylprince/IPCheck/issues
@@ -26,8 +25,11 @@ Each entry follows the form of:
 array("description"=>"Windows Server","ip"=>"192.168.0.1","port"=>"445")
 
 Where description is a description or name of the server/switch, ip is the IP address of the server/switch, and port is a port to check connectivity on.
+
 Port 445 is common for a Windows machine.
+
 Port 22 for a Linux machine (with an ssh-server.)
+
 Ports 80 or 23 are commonly used for switches.
 
 
@@ -40,7 +42,9 @@ The authentication can be extend using that library. Note: sessions must be used
 jQuery and jQuery UI are produced by the jQuery team: http://jquery.com/ and http://jqueryui.com/
 
 session_lib.php was taken from the PHP manual: http://php.net/manual/en/function.session-set-save-handler.php
+
 jQuery Cookie was taken from https://github.com/carhartl/jquery-cookie
+
 All other code is Copyright 2012 Kory Prince (korylprince at gmail dot com.) This code is licensed under the GPL v3 which is included in this distribution.
 
 This program is free software: you can redistribute it and/or modify
