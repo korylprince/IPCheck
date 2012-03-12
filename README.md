@@ -38,6 +38,7 @@ The authentication can be extend using that library. Note: sessions must be used
 #Copyright Information#
 
 jQuery and jQuery UI are produced by the jQuery team: http://jquery.com/ and http://jqueryui.com/
+
 session_lib.php was taken from the PHP manual: http://php.net/manual/en/function.session-set-save-handler.php
 jQuery Cookie was taken from https://github.com/carhartl/jquery-cookie
 All other code is Copyright 2012 Kory Prince (korylprince at gmail dot com.) This code is licensed under the GPL v3 which is included in this distribution.
