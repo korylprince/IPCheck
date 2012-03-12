@@ -6,5 +6,6 @@ require('options.php');
 require('authlib.php');
 $login = authenticate(null,null,$types,$options);
 //echo json_encode($login);return True;//debug
+echo '{"logout":"true"}';
 return 0;
 ?>
