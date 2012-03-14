@@ -34,6 +34,7 @@ Port 22 for a Linux machine (with an ssh-server.)
 
 Ports 80 or 23 are commonly used for switches.
 
+https://docs.bullardisd.net/public/monitor/ipcheck.html contains more information.
 
 This builds upon the "KAuth" Library:
 https://github.com/korylprince/KAuth
