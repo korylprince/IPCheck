@@ -11,6 +11,8 @@ If you are running this on a windows box, need to set the windows option to True
 
 Simply copy the IPCheck folder to your web directory, copy auth/options.php.def to options.php, and edit it for authentication and your list of ips. Then navigate to your website and login. 
 
+If you just want a single login, copy auth/users.list.def to auth/users.list. You can use auth/mkpasswd.php to change the password. See https://github.com/korylprince/KAuth for usage.
+
 If you have any issues or questions, email the email address below, or open an issue at:
 https://github.com/korylprince/IPCheck/issues
 
@@ -41,7 +43,7 @@ The authentication can be extend using that library. Note: sessions must be used
 
 jQuery and jQuery UI are produced by the jQuery team: http://jquery.com/ and http://jqueryui.com/
 
-session_lib.php was taken from the PHP manual: http://php.net/manual/en/function.session-set-save-handler.php
+session\_lib.php was taken from the PHP manual: http://php.net/manual/en/function.session-set-save-handler.php
 
 jQuery Cookie was taken from https://github.com/carhartl/jquery-cookie
 
