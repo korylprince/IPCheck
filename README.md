@@ -1,6 +1,8 @@
 IPCheck
 https://github.com/korylprince/IPCheck
 
+This is sort of obsolete. A much faster version is available here: https://github.com/korylprince/pyIPCheck . It does not have the pinging feature, but I found I never used it all that much.
+
 #Installing#
 
 This was installed on a variety of servers. It should work on any machine as long as it is running a webserver and PHP (5+).
